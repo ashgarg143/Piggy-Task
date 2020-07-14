@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:paddingBottom="12dp"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/filter_1_compare_funds"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            android:minHeight="36dp"
+            android:layout_marginRight="20dp"
+            android:gravity="center"
+            android:background="@drawable/search_box"
+            android:text="Compare by top holdings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/filter_2_compare_funds"
+
+            android:layout_marginTop="12dp"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            android:minHeight="36dp"
+            android:layout_marginRight="20dp"
+            android:gravity="center"
+            android:background="@drawable/search_box"
+            android:text="Compare by top holdings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/filter_3_compare_funds"
+
+            android:layout_marginTop="12dp"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            android:minHeight="36dp"
+            android:layout_marginRight="20dp"
+            android:gravity="center"
+            android:background="@drawable/search_box"
+            android:text="Compare by top holdings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/filter_4_compare_funds"
+
+            android:layout_marginTop="12dp"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            android:minHeight="36dp"
+            android:layout_marginRight="20dp"
+            android:gravity="center"
+            android:background="@drawable/search_box"
+            android:text="Compare by top holdings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/filter_5_compare_funds"
+
+            android:layout_marginTop="12dp"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            android:minHeight="36dp"
+            android:layout_marginRight="20dp"
+            android:gravity="center"
+            android:background="@drawable/search_box"
+            android:text="Compare by top holdings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

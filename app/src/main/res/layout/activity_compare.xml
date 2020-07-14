@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.CompareActivity">
+
+    <LinearLayout
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_marginBottom="8dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Compare Funds"/>
+
+        <Button
+            android:layout_marginLeft="13dp"
+            android:layout_marginRight="13dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Filter"
+            android:visibility="visible"
+            android:id="@+id/bt_filter_compare_funds"
+            android:drawableLeft="@drawable/ic_filter_list_black_24dp"/>
+
+        <TextView
+            android:layout_marginTop="4dp"
+            android:textColor="@color/colorPrimary"
+            android:gravity="center"
+            android:text="Comparison on basis of top holdings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+
+           <FrameLayout
+               android:layout_marginBottom="8dp"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:id="@+id/fl_copmarison">
+
+           </FrameLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
